@@ -1,0 +1,70 @@
+.board{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    border: 10px solid #bbada0;
+    justify-items: center;
+    border-radius: 6px;
+    gap: 10px;
+    background: #bbada0;
+}
+
+.element{
+    display: flex;
+    border-radius: 5px;
+    width: 107px;
+    height: 107px;
+    background: #eee4da59;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    font-weight: 900;
+    font-family: Helvetica, serif;
+}
+
+
+.two {
+    background: #eee4da;
+}
+
+.four{
+    background: #eee1c9;
+}
+
+.eight{
+    color: #f9f6f2;
+    background: #f3b27a;
+}
+
+.sixteen{
+    color: #f9f6f2;
+    background: #f69664;
+}
+
+.thirty-two{
+    color: #f9f6f2;
+    background: #f77c5f;
+}
+
+.sixty-four{
+    color: #f9f6f2;
+    background: #f75f3b;
+}
+
+.one-twenty-right{
+    color: #f9f6f2;
+    background: #edd073;
+}
+.two-fifty-six{
+    color: #f9f6f2;
+    background: #edcc62;
+}
+.five-twelve{
+    color: #f9f6f2;
+    background: #edc950;
+}
+.one-zero-twenty-four{
+
+}
+.two-zero-forty-eight{
+
+}
